@@ -5,8 +5,14 @@ import VolumeFormula from "../components/VolumeFormula";
 function Main() {
     return (
         <div>
-            <QuadFormula />
-            <VolumeFormula />
+            <QuadFormula 
+                a="1"
+                b="10"
+                c="25"
+            />
+            <VolumeFormula 
+                value="3"
+            />
         </div>
     );
 }
