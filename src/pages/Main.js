@@ -10,6 +10,16 @@ function Main() {
                 b="10"
                 c="25"
             />
+            <QuadFormula 
+                a="1"
+                b="-15"
+                c="50"
+            />
+            <QuadFormula 
+                a="1"
+                b="-11/2"
+                c="-3"
+            />
             <VolumeFormula 
                 value="3"
             />
