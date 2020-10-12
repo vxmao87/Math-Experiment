@@ -33,6 +33,30 @@ export default {
     heronFormula: function (a, b, c) {
         const s = (a + b + c) / 2;
         return Math.sqrt(s * (s - a) * (s - b) * (s - c));
+    },
+
+    squareArea: function (x) {
+        return Math.pow(x, 2);
+    },
+
+    rectangleArea: function (l, w) {
+        return l * w;
+    },
+
+    triangleArea: function (b, h) {
+        return (1/2) * b * h;
+    },
+
+    circleArea: function (r) {
+        return Math.PI * Math.pow(r, 2);
+    },
+
+    trapezoidArea: function (a, b, h) {
+        return ((a + b) / 2) * h;
+    },
+
+    ellipseArea: function (a, b) {
+        return Math.PI * a * b;
     }
 
 };
