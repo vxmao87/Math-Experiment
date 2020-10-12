@@ -23,6 +23,13 @@ function Main() {
             />
             <VolumeFormula 
                 value={3}
+                l={4}
+                w={5}
+                h={7}
+                r={7}
+                a={13}
+                b={8}
+                c={7}
             />
             <HeronFormula 
                 a={5}

@@ -4,7 +4,12 @@ import formulas from "../../utils/formulas";
 function VolumeFormula(props) {
     return (
         <div>
-            <p>{formulas.cubeVolume(props.value)}</p>
+            <p>Cube: {formulas.cubeVolume(props.value)}</p>
+            <p>Rectangular prism: {formulas.rectPrismVolume(props.a, props.b, props.c)}</p>
+            <p>Sphere: {formulas.sphereVolume(props.r)}</p>
+            <p>Pyramid: {formulas.pyramidVolume(props.l, props.w, props.h)}</p>
+            <p>Cylinder: {formulas.cylinderVolume(props.r, props.h)}</p>
+            <p>Cone: {formulas.coneVolume(props.r, props.h)}</p>
         </div>
     );
 }
