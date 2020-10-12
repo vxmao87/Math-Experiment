@@ -1,5 +1,5 @@
 import React from "react";
-import formulas from "../../utils/formulas";
+import formulas from "../../utils/otherFormulas";
 
 function QuadFormula(props) {
     return (

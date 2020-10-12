@@ -1,4 +1,5 @@
 import React from "react";
+import AreaFormula from "../components/AreaFormula";
 import HeronFormula from "../components/HeronFormula";
 import QuadFormula from "../components/QuadFormula";
 import VolumeFormula from "../components/VolumeFormula";
@@ -22,7 +23,7 @@ function Main() {
                 c={-3}
             />
             <VolumeFormula 
-                value={3}
+                x={3}
                 l={4}
                 w={5}
                 h={7}
@@ -35,6 +36,16 @@ function Main() {
                 a={5}
                 b={8}
                 c={10}
+            />
+            <AreaFormula 
+                x={3}
+                l={4}
+                w={5}
+                h={7}
+                r={7}
+                a={13}
+                b={8}
+                c={7}
             />
         </div>
     );
