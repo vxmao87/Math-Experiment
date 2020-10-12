@@ -1,5 +1,3 @@
-import React from "react";
-
 export default {
 
     quadFormula: function (a, b, c) {
@@ -11,5 +9,11 @@ export default {
     cubeVolume: function (x) {
         return Math.pow(x, 3);
     },
+
+    heronFormula: function (a, b, c) {
+        const s = (a + b + c) / 2;
+        console.log(s);
+        return Math.sqrt(s * (s - a) * (s - b) * (s - c));
+    }
 
 };
