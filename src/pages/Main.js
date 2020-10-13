@@ -3,6 +3,7 @@ import AreaFormula from "../components/AreaFormula";
 import HeronFormula from "../components/HeronFormula";
 import QuadFormula from "../components/QuadFormula";
 import VolumeFormula from "../components/VolumeFormula";
+import Triangles from "../components/Triangles";
 
 function Main() {
     return (
@@ -46,6 +47,16 @@ function Main() {
                 a={13}
                 b={8}
                 c={7}
+            />
+            <Triangles 
+                a={3}
+                b={4}
+                c={5}
+            />
+            <Triangles 
+                a={3}
+                b={4}
+                c={8}
             />
         </div>
     );
