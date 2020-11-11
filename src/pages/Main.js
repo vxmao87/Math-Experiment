@@ -58,6 +58,11 @@ function Main() {
                 b={4}
                 c={8}
             />
+            <Triangles 
+                a={7}
+                b={8}
+                c={15}
+            />
         </div>
     );
 }
